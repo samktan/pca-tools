@@ -7,7 +7,7 @@ A collection of tools for Oracle's Private Cloud Appliance
 This is a simple shell script that simplifies the process of uploading bundle files (any file is supported) to MOS. Installation is easy, just download it to your PCA MN and run it.
 
 
-## How to install
+### How to install
 ```
 mkdir -p /nfs/shared_storage/tools/
 mv send_bundle.sh /nfs/shared_storage/tools/send_bundle.sh

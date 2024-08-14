@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-# Name: sssh*
+# Name: sssh.sh
 # Author: sam.k.tan@oracle.com
 # JUN-2024
 

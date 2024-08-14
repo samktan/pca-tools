@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/sh
 
 # Name: sssh*
 # Author: sam.k.tan@oracle.com

@@ -20,6 +20,14 @@ This is a simple shell script that simplifies the process of uploading bundle fi
 ../tools/send_bundle.sh ./3-37582104811_pca-support-bundle_20240814T043429658.tar.gz
 ```
 
+### One Line Version
+
+If you want to have a command that you can run from the prompt, just copy/paste this line of code.
+
+```
+echo -n "File: "; read f; p=$(realpath $f); [ ! -f $p ] && echo "Not a file." && return 1; echo -n "SR: "; read s; echo -n "Login: "; read l; u="https://transport.oracle.com/upload/issue/${s}/"; curl --verbose --progress-bar --user ${l} --upload-file ${p} ${u};
+```
+
 
 ## ssh_wrapper
 
